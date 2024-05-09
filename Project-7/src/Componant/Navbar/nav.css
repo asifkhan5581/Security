@@ -65,10 +65,10 @@
   border-bottom: 1px solid #fff;
   color: orange;
 }
-/* hr {
+hr {
   color: orange;
-  width: 90%;
-} */
+  width: 70%;
+}
 .menu-icon span {
   color: #fff;
   display: none;

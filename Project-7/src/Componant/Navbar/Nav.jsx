@@ -24,37 +24,86 @@ function Nav() {
           >
             <li>
               <Link to="/" onClick={() => setmenu("home")}>
-                HOME{menu === "home" ? <hr /> : <></>}
+                HOME
+                {menu === "home" ? (
+                  <hr
+                    style={{ border: "3px solid orange", borderRadius: "10px" }}
+                  />
+                ) : (
+                  <></>
+                )}
               </Link>
             </li>
             <li>
               <Link to="/about" onClick={() => setmenu("about")}>
-                ABOUT{menu === "about" ? <hr /> : <></>}
+                ABOUT
+                {menu === "about" ? (
+                  <hr
+                    style={{ border: "3px solid orange", borderRadius: "10px" }}
+                  />
+                ) : (
+                  <></>
+                )}
               </Link>
             </li>
             <li>
               <Link to="/service" onClick={() => setmenu("services")}>
-                SERVICES{menu === "services" ? <hr /> : <></>}
+                SERVICES
+                {menu === "services" ? (
+                  <hr
+                    style={{ border: "3px solid orange", borderRadius: "10px" }}
+                  />
+                ) : (
+                  <></>
+                )}
               </Link>
             </li>
             <li>
               <Link to="/career" onClick={() => setmenu("careers")}>
-                Careers{menu === "careers" ? <hr /> : <></>}
+                Careers
+                {menu === "careers" ? (
+                  <hr
+                    style={{ border: "3px solid orange", borderRadius: "10px" }}
+                  />
+                ) : (
+                  <></>
+                )}
               </Link>
             </li>
             <li>
-              <Link to="/opporunities" onClick={() => setmenu("Opporunities")}>
-                Co-Op Opporunities{menu === "Opporunities" ? <hr /> : <></>}
+              <Link to="/opporunities" onClick={() => setmenu("opporunities")}>
+                Co-Op Opporunities
+                {menu === "opporunities" ? (
+                  <hr
+                    style={{ border: "3px solid orange", borderRadius: "10px" }}
+                  />
+                ) : (
+                  <></>
+                )}
               </Link>
             </li>
             <li>
               <Link to="/blog" onClick={() => setmenu("BLOGS")}>
-                BLOGS{menu === "BLOGS" ? <hr /> : <></>}
+                BLOGS
+                {menu === "BLOGS" ? (
+                  <hr
+                    style={{ border: "3px solid orange", borderRadius: "10px" }}
+                  />
+                ) : (
+                  <></>
+                )}
               </Link>
             </li>
             <li>
               <Link to="/contact" onClick={() => setmenu("CONTACT")}>
-                CONTACT{menu === "CONTACT" ? <hr /> : <></>}
+                CONTACT
+                {menu === "CONTACT" ? (
+                  <hr
+                    style={{ border: "3px solid orange", borderRadius: "10px" }}
+                  />
+                ) : (
+                  <></>
+                )}
               </Link>
             </li>
           </ul>
